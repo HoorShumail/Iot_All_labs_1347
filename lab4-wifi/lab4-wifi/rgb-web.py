@@ -8,8 +8,8 @@ pin = Pin(48, Pin.OUT)   # set GPIO48  to output to drive NeoPixel
 neo = NeoPixel(pin, 1)   # create NeoPixel driver on GPIO48 for 1 pixel
 
 # Connect to Wi-Fi
-ssid = "okokok"
-password = "09000000"
+ssid = "Galaxy"
+password = "mbbn6562"
 sta = network.WLAN(network.STA_IF)
 sta.active(True)
 sta.connect(ssid, password)
